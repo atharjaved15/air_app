@@ -51,14 +51,14 @@ class loginScreen extends StatelessWidget {
                   'Sign in to IDA and continue',
                   textAlign: TextAlign.center,
                   style:
-                  GoogleFonts.openSans(color: Colors.white, fontSize: 28),
+                  TextStyle(color: Colors.white, fontSize: 28,fontFamily: 'Georgia'),
                 ),
                 SizedBox(height: 20),
                 Text(
                   'Enter your email and password below to continue to the AIR!',
                   textAlign: TextAlign.center,
                   style:
-                  GoogleFonts.openSans(color: Colors.white, fontSize: 14),
+                  TextStyle(color: Colors.white, fontSize: 14,fontFamily: 'Georgia' ),
                 ),
                 SizedBox(
                   height: 50,
@@ -74,7 +74,7 @@ class loginScreen extends StatelessWidget {
                   onPressed: (){},
                   color: logoColor,
                   child: Text('Login',
-                      style: TextStyle(color: Colors.white, fontSize: 16)),
+                      style: TextStyle(color: Colors.white, fontSize: 16, fontFamily: 'Georgia')),
                   textColor: Colors.white,
                 ),
                 SizedBox(height: 20),
@@ -87,11 +87,11 @@ class loginScreen extends StatelessWidget {
                   },
                   color: Colors.green,
                   child: Text('Register',
-                      style: TextStyle(color: Colors.white, fontSize: 16)),
+                      style: TextStyle(color: Colors.white, fontSize: 16, fontFamily: 'Georgia')),
                   textColor: Colors.white,
                 ),
                 SizedBox(height: 20),
-                MaterialButton(
+               /* MaterialButton(
                   elevation: 0,
                   minWidth: double.maxFinite,
                   height: 50,
@@ -104,11 +104,11 @@ class loginScreen extends StatelessWidget {
                     children: <Widget>[
                       SizedBox(width: 10),
                       Text('Admin Panel',
-                          style: TextStyle(color: Colors.white, fontSize: 16)),
+                          style: TextStyle(color: Colors.white, fontSize: 16, fontFamily: 'Georgia')),
                     ],
                   ),
                   textColor: Colors.white,
-                ),
+                ),*/
                 SizedBox(height: 100),
 
               ],

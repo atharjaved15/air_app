@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'loginScreen.dart';
 class Start extends StatelessWidget {
 
@@ -31,13 +32,13 @@ class Start extends StatelessWidget {
               Text(
                 'Welcome to AIR !',
                 textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.black87, fontSize: 28),
+                style: TextStyle(color: Colors.black87, fontSize: 28, fontFamily: 'Georgia'),
               ),
               SizedBox(height: 20),
               Text(
                 'A one-stop portal for you to Shop Online.',
                 textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.black87, fontSize: 16),
+                style: TextStyle(color: Colors.black87, fontSize: 16, fontFamily: 'Georgia'),
               ),
               SizedBox(
                 height: 80,
@@ -55,7 +56,7 @@ class Start extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Text('Get Started',
-                        style: TextStyle(color: Colors.white, fontSize: 20)),
+                        style: TextStyle(color: Colors.white, fontSize: 20, fontFamily: 'Georgia')),
                     Icon(Icons.arrow_forward_ios)
                   ],
                 ),

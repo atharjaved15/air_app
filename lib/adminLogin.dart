@@ -47,14 +47,14 @@ class adminLogin extends StatelessWidget {
                   'Sign in to AIR and continue',
                   textAlign: TextAlign.center,
                   style:
-                  GoogleFonts.openSans(color: Colors.white, fontSize: 28),
+                  TextStyle(color: Colors.white, fontSize: 28,fontFamily: 'Georgia'),
                 ),
                 SizedBox(height: 20),
                 Text(
                   'Enter your email and password below to continue to the Interior Design Mobile Application as an Admin!',
                   textAlign: TextAlign.center,
                   style:
-                  GoogleFonts.openSans(color: Colors.white, fontSize: 14),
+                  TextStyle(color: Colors.white, fontSize: 14, fontFamily: 'Georgia'),
                 ),
                 SizedBox(
                   height: 50,
@@ -70,7 +70,7 @@ class adminLogin extends StatelessWidget {
                   onPressed: () => admin(context),
                   color: logoColor,
                   child: Text('Login As Admin',
-                      style: TextStyle(color: Colors.white, fontSize: 16)),
+                      style: TextStyle(color: Colors.white, fontSize: 16, fontFamily: 'Georgia')),
                   textColor: Colors.white,
                 ),
 

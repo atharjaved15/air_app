@@ -50,14 +50,14 @@ class registerScreen extends StatelessWidget {
                   'Sign in to AIR and Register Yourself',
                   textAlign: TextAlign.center,
                   style:
-                  GoogleFonts.openSans(color: Colors.white, fontSize: 28),
+                  TextStyle(color: Colors.white, fontSize: 28, fontFamily: 'Georgia'),
                 ),
                 SizedBox(height: 20),
                 Text(
                   'Enter your email and password below to Register to the AIR!',
                   textAlign: TextAlign.center,
                   style:
-                  GoogleFonts.openSans(color: Colors.white, fontSize: 14),
+                  TextStyle(color: Colors.white, fontSize: 14, fontFamily: 'Georgia'),
                 ),
                 SizedBox(
                   height: 50,
